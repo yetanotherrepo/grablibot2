@@ -6,7 +6,7 @@ from telebot import apihelper
 
 apihelper.proxy = {'https': 'socks5://729219:z5X6ipRm@orbtl.s5.opennetwork.cc:999'}
 
-bot = telebot.TeleBot('642865171:AAECH4AepSqIy7FPycU6EeJU7oJD00ICKdM')
+bot = telebot.TeleBot('')
 
 dayweek = ""
 if datetime.datetime.today().weekday() == 0:
